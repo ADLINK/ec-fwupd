@@ -16,7 +16,7 @@ it provides to update the EC firmware on x86-64 platforms. It uses eSPI to commu
 | cExpress-TL        | Ubuntu 20.04 LTS 64 bit |
 | cExpress-AR        | Ubuntu 20.04 LTS 64 bit |
 
-2. Git clone the binary from https://github.com/adlink/ec-fwupd.git on your target device
+2. Git clone the binary & driver from https://github.com/adlink/ec-fwupd.git on your target device
 
 3. Install the drive using below command.
 
