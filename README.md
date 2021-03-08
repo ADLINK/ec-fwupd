@@ -88,25 +88,22 @@ The command **ad-ec-fwupd** is used in Linux to flash EC firmware on your target
 
   * it will give the below output with the valid .bin file:
   
-    > **Output format: EC [MODULE_NAME](#_Module_Details_:) [VERSION](#_Module_Details_:) [DATE](#_Module_Details_:) © ADLINK Technology Inc.**
+    > **Output format: EC MODULE_NAME ADLINK VERSION DATE**
 
 <br> 
 
 * Display the BMC version on your target device
 
   ```
-  $ ad-litbmc-fwupd -d -t
+  $ ad-ec-fwupd -d -t
   ```
 
   **Note:**
 
   * it will give the below output when the firmware is in your target,
 
-    > **Output format: EC [MODULE_NAME](#_Module_Details_:) [VERSION](#_Module_Details_:) [DATE](#_Module_Details_:) © ADLINK Technology Inc.**
+    > **Output format: MODULE_NAME ADLINK VERSION**
 
-  * it will give the below output when the firmware is NOT in your target
-
-    > **Output format: Firmware is corrupted, please update the firmware in recovery mode.**
     
 
 
