@@ -108,10 +108,7 @@ The command **ad-ec-fwupd** is used in Linux to flash EC firmware on your target
 
     > **Output format: Firmware is corrupted, please update the firmware in recovery mode.**
   
-
-
-
- 
+  * Internal gitlab commit id:682c503c1dfffa38239a34cf7ab8ce746ddf5dcd
 
 
 
