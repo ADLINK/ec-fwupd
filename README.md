@@ -10,20 +10,30 @@ it provides to update the EC firmware on x86-64 platforms. It uses eSPI to commu
 1. Install required dependencies on your target device
 
 
-| Supported Hardware | **Architecture** |
-| ------------------ | ---------------- |
-| cExpress-EL        | Linux 64 bit     |
-| cExpress-TL        | Linux 64 bit     |
-| cExpress-AR        | Linux 64 bit     |
+| Supported Hardware | **Architecture**        |
+| ------------------ | ----------------------- |
+| cExpress-EL        | Ubuntu 20.04 LTS 64 bit |
+| cExpress-TL        | Ubuntu 20.04 LTS 64 bit |
+| cExpress-AR        | Ubuntu 20.04 LTS 64 bit |
 
 2. Git clone the binary from https://github.com/adlink/ec-fwupd.git on your target device
 
-3. please install the drive using below command.
+3. Install the drive using below command.
 
    ```
    $ cd ec-fwupd
    $ insmod ad-ec-fwupd.ko 
    ```
+
+4. change the access permissions
+
+   ```
+   chmod 777 ad-ec-fwupd
+   ```
+
+
+
+<br>
 
 
 
