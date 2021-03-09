@@ -4,11 +4,7 @@
 it provides to update the EC firmware on x86-64 platforms. It uses eSPI to communicate with the EC chip. This document will help to understand the Flash Firmware Utility supported features and how user can use it.
 
 
-
-## How to Install  
-
-1. Install required dependencies on your target device
-
+## Supported Hardware
 
 | **Supported Hardware** | **Tested Environment**        |
 | ------------------ | ----------------------- |
@@ -16,16 +12,20 @@ it provides to update the EC firmware on x86-64 platforms. It uses eSPI to commu
 | cExpress-TL        | Ubuntu 20.04 LTS 64 bit |
 | cExpress-AR        | Ubuntu 20.04 LTS 64 bit |
 
-2. Git clone the binary & driver from https://github.com/adlink/ec-fwupd.git on your target device
 
-3. Install the drive using below command.
+
+## How to Install  
+
+1. Git clone the binary & driver from https://github.com/adlink/ec-fwupd.git on your target device
+
+2. Install the drive using below command.
 
    ```
    $ cd ec-fwupd
    $ insmod ad-ec-fwupd.ko 
    ```
 
-4. change the access permissions
+3. change the access permissions
 
    ```
    chmod 777 ad-ec-fwupd
