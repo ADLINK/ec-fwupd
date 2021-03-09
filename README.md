@@ -10,7 +10,7 @@ it provides to update the EC firmware on x86-64 platforms. It uses eSPI to commu
 1. Install required dependencies on your target device
 
 
-| Supported Hardware | **Architecture**        |
+| **Supported Hardware** | **Tested environment**        |
 | ------------------ | ----------------------- |
 | cExpress-EL        | Ubuntu 20.04 LTS 64 bit |
 | cExpress-TL        | Ubuntu 20.04 LTS 64 bit |
