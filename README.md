@@ -18,7 +18,7 @@ it provides to update the EC firmware on x86-64 platforms. It uses eSPI to commu
 
 1. Git clone the binary & driver from https://github.com/adlink/ec-fwupd.git on your target device
 
-2. Install the drive using below command.
+2. Install the driver with the below command.
 
    ```
    $ cd ec-fwupd
