@@ -78,7 +78,7 @@ The command **ad-ec-fwupd** is used in Linux to flash EC firmware on your target
   <br>
 
 
-* Display the BMC version of .bin binary:
+* Display the EC version of .bin binary:
 
   ```
   $ ad-ec-fwupd -d -f your_file.bin
@@ -92,7 +92,7 @@ The command **ad-ec-fwupd** is used in Linux to flash EC firmware on your target
 
 <br> 
 
-* Display the BMC version on your target device
+* Display the EC version on your target device
 
   ```
   $ ad-ec-fwupd -d -t
