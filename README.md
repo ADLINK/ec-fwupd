@@ -112,7 +112,8 @@ The command **ad-ec-fwupd** is used in Linux to flash EC firmware on your target
  * Please feel free to send us (email: ryanzj.huang@adlinktech.com) patches for this layer and report bugs of this layer.
 For hardware support, please contact your local representative.
  
- * Internal gitlab commit id:682c503c1dfffa38239a34cf7ab8ce746ddf5dcd
+
+ADLINK internal gitlab commit id:682c503c1dfffa38239a34cf7ab8ce746ddf5dcd
 
 
 
